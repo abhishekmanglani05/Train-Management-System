@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Train Ticket System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login-container">
+    <h1>Train Ticket System</h1>
+
+    <div class="login-box">
+        <h2>Create Account</h2>
+
+        <form action="Servlet2" method="post">
+
+            <!-- Username -->
+            <label>Username</label>
+            <input type="text" name="ename" required>
+
+            <!-- Email -->
+            <label>Email</label>
+            <input type="email" name="eemail" required>
+
+            <!-- Password -->
+            <label>Password</label>
+            <input type="password" name="epassword" required>
+
+            <!-- Address -->
+            <label>Address</label>
+            <textarea name="eaddress" required></textarea>
+
+            <!-- Contact -->
+            <label>Mobile Number</label>
+            <input type="text" name="econtact" maxlength="10" required>
+
+            <button type="submit">Register</button>
+
+        </form>
+
+        <p class="register-text">
+            Already registered? <a href="login.html">Login here</a>
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
